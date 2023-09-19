@@ -1,0 +1,38 @@
+/* Style for spoken text */
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+/* Style for directions */
+.direction {
+    font-family: Times New Roman, serif;
+    font-size: 12px;
+    color: black;
+    background-color: lightgray;
+}
+
+/* Hover effect for directions */
+.direction:hover {
+    background-color: lightblue;
+    color: white;
+}
+
+/* Style for character names */
+.name {
+    font-weight: bold;
+}
+
+/* Define styles for individual characters */
+.mary {
+    color: blue;
+}
+
+.ollivant {
+    color: green;
+}
+
+.emily {
+    color: purple;
+}
