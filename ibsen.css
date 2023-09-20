@@ -32,55 +32,59 @@
 }
 
 /* Style for the character table */
-table {
-
-    width: 100%;
+.character-table {
 
     border-collapse: collapse;
 
-    margin: 10px; /* This removes spacing between table cells */
+    width: 100%;
 
-  }
+    margin: 20px;
+
+}
 
  
 
-  /* Style for table headers */
+.character-table th, .character-table td {
 
-  th {
+    border: 1px solid #873939;
 
-    background-color: rgb(178, 176, 242);
-
-    color: white;
+    padding: 8px;
 
     text-align: left;
 
-    padding: 5px;
+}
 
-    border: 1px solid red;
+ 
 
-  }
+.character-table th {
 
-  td {
+    background-color: yellowgreen;
 
-    background-color: rgb(25, 209, 226);
+}
 
-    color: white;
+ 
 
-    text-align: left;
+.character-table tr:nth-child(even) {
 
-    padding: 5px;
+    background-color: wheat;  
 
-    border: 1px solid black;
+}
 
-  }
+.character-table tr:nth-child(odd) {
 
-  /* Style for table rows */
+    background-color: lightskyblue;  
 
-  tr {
+}
 
-    background-color: greenyellow;
+ 
 
-  }
+.character-table tr:hover {
+
+    background-color: lightcoral;
+
+}
+
+ 
   /* Hover effect for character names */
 
     .TESMAN:hover {
