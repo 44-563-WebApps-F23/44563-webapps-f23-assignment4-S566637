@@ -87,15 +87,26 @@
  
   /* Hover effect for character names */
 
+        /* Hover effect for character names */
+    .name:hover {
+        text-shadow: 2px 2px 4px rgba(0, 225, 255, 0.7); /* Customize shadow properties */
+        border: 2px solid #1aff00; /* Customize border properties */
+        color: #FF0000; /* Customize text color */
+    }
+    /* Hover effect for character names */
     .TESMAN:hover {
-        text-shadow: 2px 2px 8px rgba(149, 0, 255, 0.459); /* Customize shadow properties */
-        
+        text-shadow: 2px 2px 4px rgba(35, 28, 137, 0.7); /* Customize shadow properties */
+        border: 2px solid #09ff00; /* Customize border properties */
+        color: #FF0000; /* Customize text color */
     }
     .HEDDA:hover {
-        text-shadow: 2px 2px 8px rgba(0, 208, 255, 0.7); /* Customize shadow properties */
-        
-        
+        text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.7); /* Customize shadow properties */
+        border: 2px solid #00ff33; /* Customize border properties */
+        color: #FF0000; /* Customize text color */
     }
+    
+
+
     /* Style for the navbar */
     .navbar {
         background-color: #333;
