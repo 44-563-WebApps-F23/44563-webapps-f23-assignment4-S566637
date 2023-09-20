@@ -1,7 +1,7 @@
 /* Style for spoken text */
 .speech {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
 }
 
@@ -20,17 +20,78 @@
 }
 
 /* Style for character names */
-.name {
-    font-weight: bold;
-}
+
 
 /* Define styles for individual characters */
-.NORA {
+.TESMAN {
     color: blue;
 }
 
-.HELMER {
+.HEDDA {
     color: green;
 }
+
+/* Style for the character table */
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 10px; /* This removes spacing between table cells */
+
+  }
+
+ 
+
+  /* Style for table headers */
+
+  th {
+
+    background-color: rgb(178, 176, 242);
+
+    color: white;
+
+    text-align: left;
+
+    padding: 5px;
+
+    border: 1px solid red;
+
+  }
+
+  td {
+
+    background-color: rgb(25, 209, 226);
+
+    color: white;
+
+    text-align: left;
+
+    padding: 5px;
+
+    border: 1px solid black;
+
+  }
+
+  /* Style for table rows */
+
+  tr {
+
+    background-color: greenyellow;
+
+  }
+  /* Hover effect for character names */
+
+    .TESMAN:hover {
+        text-shadow: 2px 2px 8px rgba(149, 0, 255, 0.459); /* Customize shadow properties */
+        
+    }
+    .HEDDA:hover {
+        text-shadow: 2px 2px 8px rgba(0, 208, 255, 0.7); /* Customize shadow properties */
+        
+        
+    }
+
 
 
