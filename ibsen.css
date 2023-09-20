@@ -1,131 +1,125 @@
-/* Style for spoken text */
-.speech {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+.name{
+    font-size: 40; 
+    font-family: Palatino, "Palatino Linotype", serif; 
+    color: rgb(218, 62, 62);
+}
+
+.speech{
+    font-size: 12; 
+    font-family: Verdana, Times, serif; 
+    color: rgba(14, 14, 14, 0.925);
+    }
+
+.direction{
+    background-color: rgb(166, 184, 170);
+    font-size: 20; 
+    font-family: "Times New Roman", Times, serif; 
     color: black;
 }
 
-/* Style for directions */
-.direction {
-    font-family: 'Times New Roman', serif;
-    font-size: 14px;
-    color: black;
-    background-color: lightgray;
-}
+.direction:hover{
+    background-color: rgb(35, 30, 183);
+ }
 
-/* Hover effect for directions */
-.direction:hover {
-    background-color: lightblue;
-    color: white;
-}
-
-/* Style for character names */
-
-
-/* Define styles for individual characters */
-.TESMAN {
-    color: blue;
-}
-
-.HEDDA {
-    color: green;
-}
-
-/* Style for the character table */
-.character-table {
-
-    border-collapse: collapse;
-
-    width: 100%;
-
-    margin: 20px;
-
-}
-
- 
-
-.character-table th, .character-table td {
-
-    border: 1px solid #873939;
-
-    padding: 8px;
-
-    text-align: left;
-
-}
-
- 
-
-.character-table th {
-
-    background-color: yellowgreen;
-
-}
-
- 
-
-.character-table tr:nth-child(even) {
-
-    background-color: wheat;  
-
-}
-
-.character-table tr:nth-child(odd) {
-
-    background-color: lightskyblue;  
-
-}
-
- 
-
-.character-table tr:hover {
-
-    background-color: lightcoral;
-
-}
-
- 
-  /* Hover effect for character names */
-
-        /* Hover effect for character names */
-    .name:hover {
-        text-shadow: 2px 2px 4px rgba(0, 225, 255, 0.7); /* Customize shadow properties */
-        border: 2px solid #1aff00; /* Customize border properties */
-        color: #FF0000; /* Customize text color */
-    }
-    /* Hover effect for character names */
-    .TESMAN:hover {
-        text-shadow: 2px 2px 4px rgba(35, 28, 137, 0.7); /* Customize shadow properties */
-        border: 2px solid #09ff00; /* Customize border properties */
-        color: #FF0000; /* Customize text color */
-    }
-    .HEDDA:hover {
-        text-shadow: 2px 2px 4px rgba(0, 187, 255, 0.7); /* Customize shadow properties */
-        border: 2px solid #00ff33; /* Customize border properties */
-        color: #FF0000; /* Customize text color */
+ .HEDDA{
+    font-size: 40;
+    color: rgb(13, 195, 195);
+    font-style: italic;
     }
     
+.TESMAN:hover{
+      font-size: 40; 
+      color: rgb(26, 178, 26);
+      font-style: oblique;
+    }
 
-
-    /* Style for the navbar */
-    .navbar {
-        background-color: #333;
+    :root {
+        --table-border: 1px solid black;
+        --table-padding: 18px;
+        --table-bg-even: rgba(227, 222, 222, 0.913);
+        --table-bg-header: #c71515;
+        --table-color-header: rgb(17, 57, 96);
+      }
+      
+      /* This style is for table properties */
+      :root {
+        --table-border: 2px solid black;
+        --table-padding: 18px;
+        --table-bg-even: rgba(227, 222, 222, 0.783);
+        --table-bg-header: #168de2ba;
+        --table-color-header: rgba(179, 19, 38, 0.774);
+      }
+      
+      table, th, td {
+        border: var(--table-border);
+        text-align: center !important;
+      }
+      
+      table {
+        width: 50%;
+        margin: 20px;
+      }
+      
+      th, td {
+        padding: var(--table-padding);
+      }
+      
+      tr:nth-child(even) {
+        background-color: var(--table-bg-even);
+      }
+      
+      th {
+        background-color: var(--table-bg-header);
+        color: var(--table-color-header);
+      }
+      
+      .TESMAN:hover{
+        
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
+        filter: blur(1px);
+        
+       
+      }
+      
+      .HEDDA:hover{
+        color: darkred;
+        text-shadow:3px 2px 3px blue;
+        background-color:darkkhaki;
+        filter: blur(1px);
+      }
+      .navbar-horizontal{
+        padding: 15px;
+        float:left;
+        background-color:black;
+        color:black;
+        display:block;
+        
+      }
+      li a {
+        display: block;
         color: white;
         text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    /* Style for navbar links */
-    .navbar a {
+        padding: 16px 18px;
         text-decoration: none;
-        color: white;
-        margin: 0 10px;
-    }
-
-
-
-
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #d62929;
+      }
+      
+      li {
+        float: left;
+      }
+      .img{
+        width: 150px;
+        height: 200px;
+        margin-top: 30px;
+      margin-bottom: 11px;
+        margin-right: 100px;
+       margin-left: 80px;
+      }
